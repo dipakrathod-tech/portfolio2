@@ -1,10 +1,5 @@
 import { IconType } from "react-icons";
 import {
-  SiMicrosoft,
-  SiTableau,
-  SiPowerbi,
-} from "react-icons/si";
-import {
   IoCalculatorOutline,
   IoDocumentOutline,
   IoBarChartOutline,
@@ -12,6 +7,9 @@ import {
   IoPieChartOutline,
   IoServerOutline,
   IoSettingsOutline,
+  IoCloudOutline,
+  IoCodeSlashOutline,
+  IoRocketOutline,
 } from "react-icons/io5";
 
 // Types
@@ -57,8 +55,8 @@ export const skillCategories: SkillCategory[] = [
     title: "Technical Skills",
     description: "Data analysis and spreadsheet applications",
     skills: [
-      { name: "MS Excel (Advanced)", level: "Advanced", icon: SiMicrosoft, color: "currentColor" },
-      { name: "Power BI", level: "Intermediate", icon: SiPowerbi, color: "currentColor" },
+      { name: "MS Excel (Advanced)", level: "Advanced", icon: IoCalculatorOutline, color: "currentColor" },
+      { name: "Power BI", level: "Intermediate", icon: IoBarChartOutline, color: "currentColor" },
       { name: "Data Visualization", level: "Intermediate", icon: IoBarChartOutline, color: "currentColor" },
       { name: "Financial Analysis", level: "Intermediate", icon: IoPieChartOutline, color: "currentColor" },
     ]
@@ -87,14 +85,14 @@ export const skillCategories: SkillCategory[] = [
 
 // Tools Data
 export const tools: Tool[] = [
-  { name: "GitHub", icon: SiGithub, color: "currentColor" },
-  { name: "AWS", icon: SiAmazon, color: "currentColor" },
-  { name: "Docker", icon: SiDocker, color: "currentColor" },
-  { name: "Python", icon: SiPython, color: "currentColor" },
-  { name: "Linux", icon: SiLinux, color: "currentColor" },
-  { name: "React", icon: SiReact, color: "currentColor" },
-  { name: "Node.js", icon: SiNodedotjs, color: "currentColor" },
-  { name: "Git", icon: SiGit, color: "currentColor" },
+  { name: "GitHub", icon: IoCodeSlashOutline, color: "currentColor" },
+  { name: "AWS", icon: IoCloudOutline, color: "currentColor" },
+  { name: "Docker", icon: IoServerOutline, color: "currentColor" },
+  { name: "Python", icon: IoCodeSlashOutline, color: "currentColor" },
+  { name: "Linux", icon: IoSettingsOutline, color: "currentColor" },
+  { name: "React", icon: IoRocketOutline, color: "currentColor" },
+  { name: "Node.js", icon: IoServerOutline, color: "currentColor" },
+  { name: "Git", icon: IoCodeSlashOutline, color: "currentColor" },
 ];
 
 

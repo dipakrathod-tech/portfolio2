@@ -32,7 +32,7 @@ export function EducationSection() {
               <div className="space-y-6">
                 {educationData.map((education) => {
                   return (
-                    <div key={education.school} className="flex flex-col sm:flex-row sm:items-start gap-4">
+                    <div key={`${education.school}-${education.degree}`} className="flex flex-col sm:flex-row sm:items-start gap-4">
                       <div className="flex items-center sm:items-start gap-4 sm:gap-0">
                         <Avatar className="size-12 border bg-muted-background dark:bg-foreground flex-shrink-0">
                           <AvatarImage

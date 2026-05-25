@@ -1,15 +1,12 @@
 import { IconType } from "react-icons";
 import {
-  SiMicrosoft,
-  SiPowerbi,
-} from "react-icons/si";
-import {
   IoCheckmarkCircleOutline,
   IoTimeOutline,
   IoAddOutline,
   IoTrophyOutline,
   IoCalculatorOutline,
   IoDocumentOutline,
+  IoBarChartOutline,
 } from "react-icons/io5";
 
 // Types
@@ -66,7 +63,7 @@ export const completedCertifications: CompletedCertification[] = [
     date: "2024",
     status: "Completed",
     level: "Foundation",
-    icon: SiMicrosoft,
+    icon: IoCalculatorOutline,
     description: "Comprehensive IT literacy certification covering computer fundamentals, office applications, and digital skills",
     skills: ["Computer Fundamentals", "MS Office", "Internet", "Email", "Digital Literacy"],
     credentialUrl: "#",
@@ -95,7 +92,7 @@ export const inProgressCertifications: InProgressCertification[] = [
     expectedDate: "2026",
     status: "In Progress",
     level: "Professional",
-    icon: SiMicrosoft,
+    icon: IoCalculatorOutline,
     progress: 75,
     description: "Professional certification in advanced Excel skills including data analysis, visualization, and automation",
     skills: ["Advanced Excel", "Data Analysis", "Financial Modeling", "Data Visualization", "Automation"],
@@ -107,7 +104,7 @@ export const inProgressCertifications: InProgressCertification[] = [
     expectedDate: "2026",
     status: "In Progress",
     level: "Professional",
-    icon: SiPowerbi,
+    icon: IoBarChartOutline,
     progress: 60,
     description: "Professional data analyst certification using Power BI for business intelligence and data visualization",
     skills: ["Power BI", "Data Analysis", "Business Intelligence", "Data Visualization", "DAX"],
