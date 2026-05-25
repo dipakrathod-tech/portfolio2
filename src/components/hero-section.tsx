@@ -39,7 +39,7 @@ export function HeroSection() {
               <div className="relative w-56 h-56 sm:w-52 sm:h-52 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-white p-2 shadow-lg border-2 border-gray-200 rounded-full overflow-hidden">
                 <Image
                   src="/user-image/picture.jpeg"
-                  alt="Aishwarya Dinesh Ambilwade - Project Assistant & Accountant"
+                  alt="Aishwarya Ambilwade - Project Assistant & Accountant"
                   fill
                   priority
                   sizes="(max-width: 640px) 224px, (max-width: 768px) 208px, (max-width: 1024px) 240px, 288px"
@@ -66,7 +66,7 @@ export function HeroSection() {
               👋 Hello, I&apos;m
             </p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
-              Aishwarya Dinesh Ambilwade
+              Aishwarya Ambilwade
             </h1>
           </div>
 

@@ -135,7 +135,7 @@ export const footerStatus: FooterStatus = {
 
 // Combined Footer Data
 export const footerData: FooterData = {
-  name: "Aishwarya Dinesh Ambilwade",
+  name: "Aishwarya Ambilwade",
   title: "Project Assistant & Accountant",
   description: "Dedicated to leveraging technical skills in Tally, Excel, and data analysis to drive organizational success while pursuing advanced certifications in business analytics.",
   location: "Kannad, Dist. Chhatrapati Sambhaji Nagar, Maharashtra, India",
