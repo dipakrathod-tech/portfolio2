@@ -1,27 +1,10 @@
 import { IconType } from "react-icons";
 import {
-  SiAmazon,
-  SiDocker,
-  SiLinux,
-  SiGithub,
-  SiReact,
-  SiNodedotjs,
-  SiPython,
-  SiJavascript,
-} from "react-icons/si";
-import {
   IoCloudOutline,
   IoServerOutline,
   IoCubeOutline,
-  IoGlobeOutline,
-  IoCodeOutline,
   IoStatsChartOutline,
-  IoRocketOutline,
   IoCodeSlashOutline,
-  IoSettingsOutline,
-  IoShieldCheckmarkOutline,
-  IoLayersOutline,
-  IoBulbOutline,
 } from "react-icons/io5";
 
 // Types

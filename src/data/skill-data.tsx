@@ -97,7 +97,7 @@ export const tools: Tool[] = [
 
 
 // Utility Functions
-export const getLevelColor = (_level: string): string => {
+export const getLevelColor = (level: string): string => {
   return "bg-black/10 text-black border-black/20 dark:bg-white/10 dark:text-white dark:border-white/20";
 };
 

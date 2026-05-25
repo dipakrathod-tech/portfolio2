@@ -1,10 +1,7 @@
 import { IconType } from "react-icons";
 import { 
   FaHome, 
-  FaPenFancy, 
-  FaGithub, 
   FaLinkedin, 
-  FaTwitter, 
   FaEnvelope,
   FaReact
 } from "react-icons/fa";
@@ -13,7 +10,6 @@ import {
   SiTypescript, 
   SiTailwindcss 
 } from "react-icons/si";
-import { SlDocs } from "react-icons/sl";
 
 // Types
 export interface NavbarItem {
