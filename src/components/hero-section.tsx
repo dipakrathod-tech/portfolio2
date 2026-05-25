@@ -89,7 +89,7 @@ export function HeroSection() {
               className="flex items-center gap-2"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/resume.pdf";
+                link.href = "/resume2.pdf";
                 link.download = "Aishwarya_Ambilwade_Resume.pdf";
                 document.body.appendChild(link);
                 link.click();
