@@ -65,7 +65,7 @@ export function HeroSection() {
             <p className="text-base md:text-lg text-muted-foreground">
               👋 Hello, I&apos;m
             </p>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground whitespace-nowrap">
               Aishwarya Ambilwade
             </h1>
           </div>
