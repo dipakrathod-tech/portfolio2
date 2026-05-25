@@ -69,8 +69,8 @@ export function OGImage({
             <img
               src={logoSrc}
               alt="Logo"
-              width="120"
-              height="120"
+              width={120}
+              height={120}
               style={{
                 filter: "invert(1)",
               }}
