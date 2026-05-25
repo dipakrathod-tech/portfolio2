@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dipakrathod.me";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishwaryaambilwade.me";
   const now = new Date();
 
   return [
@@ -24,7 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/resume.pdf`,
+      url: `${baseUrl}/resume2.pdf`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,

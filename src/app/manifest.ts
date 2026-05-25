@@ -3,14 +3,14 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     // Full name of the application (max 30 chars recommended)
-    name: "Dipak Rathod - Cloud & DevOps Engineer Portfolio",
+    name: "Aishwarya Ambilwade - Project Assistant & Accountant",
 
     // Short name for home screen (max 12 chars recommended)
-    short_name: "Dipak Rathod",
+    short_name: "Aishwarya",
 
     // Detailed description for app stores and search engines
     description:
-      "Professional portfolio showcasing Cloud Engineering, DevOps automation, AWS infrastructure, Kubernetes deployments, and full-stack development projects. Explore certifications, work experience, and technical skills.",
+      "Professional portfolio showcasing accounting expertise, GST compliance, financial management, Tally ERP skills, and project assistance experience. Explore certifications, work experience, and technical accounting skills.",
 
     // Starting URL when app is launched
     start_url: "/",
@@ -31,7 +31,7 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#0a0a0a", // Matches dark theme
 
     // Application category for app stores
-    categories: ["business", "productivity", "education", "developer tools"],
+    categories: ["business", "productivity", "finance"],
 
     // Language and text direction
     lang: "en-US",

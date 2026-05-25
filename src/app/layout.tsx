@@ -26,28 +26,31 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://dipakrathod.me"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://aishwaryaambilwade.me"
   ),
   title: {
-    default: "Dipak Rathod - Cloud & DevOps Engineer",
-    template: "%s | Dipak Rathod",
+    default: "Aishwarya Ambilwade - Project Assistant & Accountant",
+    template: "%s | Aishwarya Ambilwade",
   },
   description:
-    "Passionate about building scalable solutions and optimizing cloud infrastructure to deliver exceptional digital experiences.",
+    "Dedicated Project Assistant and Accountant with strong expertise in accounting operations, GST compliance, and financial management. Specialized in Tally ERP, Excel analysis, and financial reporting.",
   keywords: [
-    "Dipak Rathod",
-    "Cloud Engineer",
-    "DevOps Engineer",
-    "AWS",
-    "Kubernetes",
-    "Docker",
-    "Cloud Infrastructure",
-    "CI/CD",
+    "Aishwarya Ambilwade",
+    "Project Assistant",
+    "Accountant",
+    "GST Compliance",
+    "Tally ERP 9",
+    "Tally Prime",
+    "Excel",
+    "Financial Analysis",
+    "Accounting Software",
+    "Income Tax",
+    "Bank Reconciliation",
     "Portfolio",
   ],
-  authors: [{ name: "Dipak Rathod", url: "https://dipakrathod.me" }],
-  creator: "Dipak Rathod",
-  publisher: "Dipak Rathod",
+  authors: [{ name: "Aishwarya Ambilwade", url: "https://aishwaryaambilwade.me" }],
+  creator: "Aishwarya Ambilwade",
+  publisher: "Aishwarya Ambilwade",
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     apple: [{ url: "/icon.svg", type: "image/svg+xml" }],
@@ -63,17 +66,17 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "Dipak Rathod Portfolio",
-    title: "Dipak Rathod - Cloud & DevOps Engineer",
+    siteName: "Aishwarya Ambilwade Portfolio",
+    title: "Aishwarya Ambilwade - Project Assistant & Accountant",
     description:
-      "Passionate about building scalable solutions and optimizing cloud infrastructure to deliver exceptional digital experiences.",
+      "Dedicated Project Assistant and Accountant with strong expertise in accounting operations, GST compliance, and financial management. Specialized in Tally ERP, Excel analysis, and financial reporting.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dipak Rathod - Cloud & DevOps Engineer",
+    title: "Aishwarya Ambilwade - Project Assistant & Accountant",
     description:
-      "Passionate about building scalable solutions and optimizing cloud infrastructure to deliver exceptional digital experiences.",
-    creator: "@dipakrathod",
+      "Dedicated Project Assistant and Accountant with strong expertise in accounting operations, GST compliance, and financial management. Specialized in Tally ERP, Excel analysis, and financial reporting.",
+    creator: "@aishwaryaambilwade",
   },
   robots: {
     index: true,
